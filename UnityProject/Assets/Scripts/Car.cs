@@ -20,6 +20,8 @@ public class Car : MonoBehaviour
     public bool Brakes;
     [Header("汽車顏色")]
     public Color Carcolor;
+    [Header("顏色")]
+    public Material m;
 
     public Transform car;
     public void CarMoveforward()
@@ -38,6 +40,12 @@ public class Car : MonoBehaviour
     {
         car.Rotate(0f, SpeedTurn * Time.deltaTime, 0f);
     }
+
+    private void Start()
+    {
+        m.color = Carcolor;
+    }
+
     private void Update()
     {
         CarMoveforward();

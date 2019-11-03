@@ -236,6 +236,7 @@ MonoBehaviour:
   Brand: BMW
   Brakes: 0
   Carcolor: {r: 0, g: 0, b: 0, a: 0}
+  m: {fileID: 2100000, guid: 4c5ea3efb1d35f34f822cdb9df291740, type: 2}
   car: {fileID: 513390481}
 --- !u!65 &175862363
 BoxCollider:
