@@ -230,11 +230,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844ff1dcf4657fc4d829aee7255680bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpeedMove: 25
-  SpeedTurn: 25
+  SpeedMove: 50
+  SpeedTurn: 20
   CarShift: 1
   Brand: BMW
-  Brakes: Brakes
+  Brakes: 0
+  Color: 0
 --- !u!65 &175862363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -681,7 +682,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100002, guid: bf5176189eca2a943a46af2c9b6557db, type: 3}
       propertyPath: m_Name
-      value: "\u6C7D\u8ECA"
+      value: Car
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: bf5176189eca2a943a46af2c9b6557db, type: 3}
       propertyPath: m_LocalPosition.x
